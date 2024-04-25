@@ -55,7 +55,7 @@ const App: React.FC<AppPropType> = ({ complete, incomplete, deleteTodo, markComp
     <Container fluid>
       <img
         className='img-fluid'
-        src='https://images.squarespace-cdn.com/content/v1/63bc2808f61d3720a9aa95fe/37ed3c99-5131-4596-bfbe-fcf8bdf8648f/Procode_logo_c_RGB.png'></img>
+        src='https://images.squarespace-cdn.com/content/v1/63bc2808f61d3720a9aa95fe/37ed3c99-5131-4596-bfbe-fcf8bdf8648f/Procode_logo_c_RGB.png' alt="Procode Logo"></img>
       <h1 className='bg-primary text-center'>ProCode TODO List Application</h1>
       <div className='m-5'>
         <InputGroup className='m-1'>
