@@ -1,9 +1,9 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 
-import complete from "./completeReducers";
-import incomplete from "./incompleteReducers";
+import complete from './completeReducers';
+import incomplete from './incompleteReducers';
 
 export default combineReducers({
   complete,
-  incomplete
+  incomplete,
 });
